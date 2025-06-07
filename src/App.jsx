@@ -1,4 +1,6 @@
 import { useState } from "react";
+import illustration from './assets/illustration-empty.svg';
+import iconCalculator from './assets/icon-calculator.svg';
 
 function App() {
   const [inputs, setInputs] = useState({
@@ -186,7 +188,7 @@ function App() {
         </div>
 
         <button type="submit" className="submit-btn">
-          <img src="/icon-calculator.svg" alt="calculator-icon" />
+          <img src={iconCalculator} alt="calculator-icon" />
           Calculate Repayments
         </button>
       </form>
@@ -197,7 +199,7 @@ function App() {
           style={{ display: showResult ? "none" : "flex" }}
         >
           <img
-            src="/illustration-empty.svg"
+            src={illustration}
             alt="illustration"
             width="200px"
           />
