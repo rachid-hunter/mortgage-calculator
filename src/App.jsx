@@ -186,7 +186,7 @@ function App() {
         </div>
 
         <button type="submit" className="submit-btn">
-          <img src="public\icon-calculator.svg" alt="calculator-icon" />
+          <img src="/icon-calculator.svg" alt="calculator-icon" />
           Calculate Repayments
         </button>
       </form>
@@ -197,7 +197,7 @@ function App() {
           style={{ display: showResult ? "none" : "flex" }}
         >
           <img
-            src="public\illustration-empty.svg"
+            src="/illustration-empty.svg"
             alt="illustration"
             width="200px"
           />
